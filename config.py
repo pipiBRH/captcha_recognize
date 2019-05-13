@@ -1,0 +1,11 @@
+# about captcha image
+IMAGE_HEIGHT = 23
+IMAGE_WIDTH = 90
+# CHAR_SETS = 'abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+CHAR_SETS = '1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+CLASSES_NUM = len(CHAR_SETS)
+CHARS_NUM = 6
+# for train
+RECORD_DIR = './data'
+TRAIN_FILE = 'train_tfrecords'
+VALID_FILE = 'valid_tfrecords'
